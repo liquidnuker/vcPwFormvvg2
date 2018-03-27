@@ -1,4 +1,4 @@
-webpackJsonp([0],{
+webpackJsonp([5],{
 
 /***/ 14:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -23,7 +23,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   props: ["prName1"],
   components: {},
   mounted: function mounted() {
-    console.log("members.vue mounted");
+    // console.log("members.vue mounted");
+    document.title = "Members";
   },
   methods: {}
 });

@@ -12,7 +12,8 @@ export default {
     }
   },
   mounted: function () {
-    console.log("global404 mounted");
+    // console.log("global404 mounted");
+    document.title = "Page Not Found";
   }
 }
 </script>

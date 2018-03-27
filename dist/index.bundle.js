@@ -29,7 +29,7 @@
 /******/
 /******/ 	// objects to store loaded and loading chunks
 /******/ 	var installedChunks = {
-/******/ 		1: 0
+/******/ 		3: 0
 /******/ 	};
 /******/
 /******/ 	// The require function
@@ -277,13 +277,31 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 Vue.use(VueRouter);
 
 var vcHome = function vcHome() {
-  return __webpack_require__.e/* import() */(0).then(__webpack_require__.bind(null, 7));
+  return __webpack_require__.e/* import() */(7).then(__webpack_require__.bind(null, 7));
+};
+var vcLogin = function vcLogin() {
+  return __webpack_require__.e/* import() */(6).then(__webpack_require__.bind(null, 8));
+};
+var vcMembers = function vcMembers() {
+  return __webpack_require__.e/* import() */(5).then(__webpack_require__.bind(null, 9));
+};
+var vc404 = function vc404() {
+  return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, 17));
 };
 // const vcHome = require('../vue-components/Home.vue').default
 
 var routes = [{
   path: "/",
   component: vcHome
+}, {
+  path: "/login",
+  component: vcLogin
+}, {
+  path: "/members",
+  component: vcMembers
+}, {
+  path: "*",
+  component: vc404
 }];
 
 var router = new VueRouter({
