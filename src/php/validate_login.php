@@ -50,6 +50,9 @@ if($loginvalidated === TRUE) {
 
     if (password_verify($_POST['l_password'], $row['password'])) {
       // valid
+      session_start();
+      $_SESSION["user"] = $loginData['name'];
+
       $userLogin->valid();
       echo json_encode($userLogin->getStatus());
       
