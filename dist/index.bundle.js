@@ -266,7 +266,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* unused harmony export router */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return router; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_components_RouterView_vue__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_components_RouterView_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vue_components_RouterView_vue__);
 // import Vue from "vue";
